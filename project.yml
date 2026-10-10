@@ -1,0 +1,24 @@
+name: OpenShareMe
+options:
+  bundleIdPrefix: com.victorgazolli
+  deploymentTarget:
+    macOS: "13.0"
+settings:
+  MACOSX_DEPLOYMENT_TARGET: "13.0"
+  SWIFT_VERSION: "5.9"
+targets:
+  OpenShareMe:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/OpenShareMe
+        excludes:
+          - Resources/Info.plist
+    info:
+      path: Sources/OpenShareMe/Resources/Info.plist
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.victorgazolli.OpenShareMe
+      GENERATE_INFOPLIST_FILE: false
+      CODE_SIGN_IDENTITY: "-"
+      CODE_SIGNING_REQUIRED: false
+      CODE_SIGNING_ALLOWED: true

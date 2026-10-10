@@ -1,0 +1,11 @@
+{
+    "iq": {
+        "type": "set",
+        "xmlns": "http:\/\/www.xiaomi.com\/midrop",
+        "action": "send_pk",
+        "param": "%7B%22pk%22%3A%22MIGcMHUGByqGSM4%2BAgEwagIhAK0tpXK0kCjs1uWsQO6vDQqDSAW6EeCq7hNX%2BBd6IZCjAiBcahcCK93fccZLZW2jiWqXdTr4l4KIhlPmSRAx8Z5GtwIgVpbSuVpIFHZrctYgd1eGhUGkAt0I8FV3Cav8C70QyFECAQIDIwACIChMShkKfRNt%5C%2FVDWNqYftAkSjJ5iI6vcTfoZS%2B%5C%2FH1OtL%22%7D",
+        "from": "Redmi Note 8 Pro",
+        "profile": 0,
+        "versionCode": 34805
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "iq": {
+    "type": "set",
+    "xmlns": "http://www.xiaomi.com/midrop",
+    "action": "send_pk_ack",
+    "param": "%7B%22pk%22%3A%22MHkwUgYJKoZIhvcNAQMBMEUCIQCtLaVytJAo7NblrEDurw0Kg0gFuhHgqu4TV%5C%2FgXeiGQowIgXGoXAivd33HGS2Vto4lql3U6%2BJeCiIZT5kkQMfGeRrcDIwACIA8PAYMogta62uvBvZ7oM%5C%2FAIX4%5C%2Fricgx2JJBVRLMStaf%22%7D",
+    "profile": 7,
+    "versionCode": 34805
+  }
+}
