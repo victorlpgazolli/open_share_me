@@ -4,6 +4,9 @@ description: 'Compile for macOS ARM64'
 runs:
   using: 'composite'
   steps:
+    - name: Install XcodeGen
+      run: brew install xcodegen
+
     - name: Build macOS ARM64
       run: sh Scripts/0_build_release.sh
       shell: bash
