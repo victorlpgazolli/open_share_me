@@ -234,7 +234,7 @@ struct ContentView: View {
                     .font(.subheadline)
                     .fontWeight(.semibold)
 
-                Text("Point your mobile scanner or ShareMe app")
+                Text("Point your ShareMe scanner at the QR code")
                     .font(.caption2)
                     .foregroundStyle(.secondary)
             }
