@@ -14,3 +14,9 @@ xcuserdata/
 # Temporary files
 *.swp
 *~
+
+Sources/OpenShareMe/Resources/Assets.xcassets
+dmg_staging/
+OpenShareMe.dmg
+*.xcodeproj
+*.xcworkspace
