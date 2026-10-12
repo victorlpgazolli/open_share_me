@@ -68,7 +68,7 @@ jobs:
     name: Build macOS ARM64
     runs-on: macos-15
     needs: setup-release
-    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')) }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v') }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
