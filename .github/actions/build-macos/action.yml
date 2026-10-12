@@ -1,0 +1,21 @@
+name: 'Build macOS Binaries'
+description: 'Compile for macOS ARM64'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Build macOS ARM64
+      run: sh Scripts/0_build_release.sh
+      shell: bash
+    
+    - name: Create DMG
+      run: sh Scripts/1_create_dmg.sh
+      shell: bash
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v7
+      with:
+        name: macos-arm64
+        path: |
+          *.dmg
+        retention-days: 1

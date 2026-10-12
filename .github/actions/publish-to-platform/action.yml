@@ -1,0 +1,26 @@
+name: 'Publish to Platform'
+description: 'Publish artifacts to GitHub Release, APT Repository, or Snapcraft Store'
+
+inputs:
+  platform:
+    description: 'Target platform (github, apt, snapcraft)'
+    required: true
+  artifacts-dir:
+    description: 'Directory containing build artifacts'
+    required: true
+    default: 'artifacts'
+
+runs:
+  using: 'composite'
+  steps:
+    # GitHub Release Publishing
+    - name: Publish to GitHub Release
+      if: inputs.platform == 'github'
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+        RELEASE_TAG: ${{ github.ref_name }}
+      run: |
+        gh release upload ${RELEASE_TAG} \
+          ${{ inputs.artifacts-dir }}/* \
+          --clobber
