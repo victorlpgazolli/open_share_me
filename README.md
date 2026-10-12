@@ -8,7 +8,7 @@ It implements the Xiaomi MiDrop / ShareMe protocol natively.
 
 |first screen|ready to receive|received a file|
 |----|----|-----|
-|<img width=200 src="./assets/start.png" />|<img width=200 src="./assets/ready_to_receive.png" />|...|
+|<img width=200 src="./assets/start.png" />|<img width=200 src="./assets/ready_to_receive.png" />|<video width=220 src="./assets/demo.mp4"></video> |
 
 
 ## Features
