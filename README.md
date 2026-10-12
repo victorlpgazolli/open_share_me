@@ -4,9 +4,11 @@ This project is an open source alternative for xiaomi pc/webshare solution, usin
 
 It implements the Xiaomi MiDrop / ShareMe protocol natively.
 
-## Demo
+## Images
 
-<video width=220 src="./assets/demo.mp4" controls></video>
+|first screen|ready to receive|received a file|
+|----|----|-----|
+|<img width=200 src="./assets/start.png" />|<img width=200 src="./assets/ready_to_receive.png" />|<img width=220 src="./assets/demo.gif" />|
 
 
 ## Features
