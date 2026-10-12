@@ -6,7 +6,7 @@ It implements the Xiaomi MiDrop / ShareMe protocol natively.
 
 ## Demo
 
-<video width=220 src="./assets/demo.mp4"></video>
+![Demo](./assets/demo.mp4)
 
 
 ## Features
