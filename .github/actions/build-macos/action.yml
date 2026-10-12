@@ -6,6 +6,7 @@ runs:
   steps:
     - name: Install XcodeGen
       run: brew install xcodegen
+      shell: bash
 
     - name: Build macOS ARM64
       run: sh Scripts/0_build_release.sh
